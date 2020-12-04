@@ -1,0 +1,41 @@
+.reviews {
+    background-color: #d74680;
+}
+
+.real-reviews {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.real-review {
+    width: 540px;
+    display: inline-flex;
+    margin-bottom: 150px;
+}
+
+.real-review:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.real-review__photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.real-review__text {
+    margin-left: 50px;
+}
+
+.real-review__review {
+    margin-bottom: 30px;
+    font-style: italic;
+    font-size: 21px;   
+}
+
+.real-review__pro {
+    font-size: 18px;
+    color: #ffdd99;
+}
